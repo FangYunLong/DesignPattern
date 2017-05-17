@@ -1,4 +1,4 @@
-package cn.fylcomposite;
+package cn.fyl.composite;
 /*
  * 具体部门：人力资源部门，叶子节点
  */

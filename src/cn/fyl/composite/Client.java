@@ -1,4 +1,4 @@
-package cn.fylcomposite;
+package cn.fyl.composite;
 
 public class Client {
 	

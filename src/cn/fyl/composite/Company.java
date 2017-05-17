@@ -1,4 +1,4 @@
-package cn.fylcomposite;
+package cn.fyl.composite;
 /*
  * 抽象构件(Component):为所有子类声明行为，
  * 客户端只调用该抽象类的方法，

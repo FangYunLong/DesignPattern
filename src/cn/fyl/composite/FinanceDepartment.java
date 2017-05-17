@@ -1,4 +1,4 @@
-package cn.fylcomposite;
+package cn.fyl.composite;
 /*
  * 具体部门：财政部门，叶子节点
  */
