@@ -14,10 +14,10 @@ public class HelloProxy implements InvocationHandler {
 	private Object consignor;
 	
 	//绑定委托者，并返回一个代理对象
-	public Object bind(Object consignor){
+	public <T> T bind(Object consignor){
 		
 		this.consignor = consignor;
-		return Proxy.newProxyInstance(consignor.getClass().getClassLoader(), consignor.getClass().getInterfaces(), this);
+		return (T)Proxy.newProxyInstance(consignor.getClass().getClassLoader(), consignor.getClass().getInterfaces(), this);
 		/*
          *Proxy.newProxyInstance(loader, interfaces, h)
          *loader:类加载器
