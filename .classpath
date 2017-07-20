@@ -3,5 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="F:/F/Java/jar/asm-2.2.3.jar"/>
+	<classpathentry kind="lib" path="F:/F/Java/jar/asm-commons-2.2.3.jar"/>
+	<classpathentry kind="lib" path="F:/F/Java/jar/asm-util-2.2.3.jar"/>
+	<classpathentry kind="lib" path="F:/F/Java/jar/cglib-nodep-2.1_3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
